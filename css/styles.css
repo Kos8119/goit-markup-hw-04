@@ -152,6 +152,19 @@ img {
 .nav-links .current {
   color: var(--accent-color);
 }
+.contact-link {
+  display: flex;
+  align-items: center;
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+}
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 /*HERO*/
 .hero {
   background-color: var(--hero-bg-color);
