@@ -439,7 +439,13 @@ img {
   margin-left: 30px;
   background-color: var(--header-bg-color);
 }
-
+.pf-link {
+}
+.pf-item:hover,
+.pf-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .pf-card-text {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -468,6 +474,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   padding: 60px 15px;
 }
 
@@ -502,7 +509,6 @@ img {
   color: var(--header-bg-color);
 }
 .footer-links {
-  padding-top: 12px;
 }
 .footer-join {
   margin-bottom: 20px;
